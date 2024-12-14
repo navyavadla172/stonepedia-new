@@ -1,0 +1,28 @@
+.home {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero__content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+}
