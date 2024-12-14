@@ -1,16 +1,16 @@
-import React from "react";
-import "./Hero.scss";
+import React from 'react';
+import './Hero.scss'; // Import your CSS file
 
-const Hero = () => {
+function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero-content">
         <h1>Welcome to Stonepedia</h1>
-        <p>Discover the world of stones</p>
-        <button>Explore Now</button>
+        <p>Explore the world of stones and minerals.</p>
+        <button className="cta-button">Learn More</button>
       </div>
-    </div>
+    </section>
   );
-};
+}
 
 export default Hero;

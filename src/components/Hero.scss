@@ -1,16 +1,39 @@
 .hero {
-    background-image: url('/assets/images/stone-hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 80vh; /* Ensure it takes up a good amount of height */
+    background: url('/src/assets/images/stone-hero.jpg') no-repeat center center/cover;
     color: white;
-}
-
-@keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
+    text-align: center;
+    padding: 50px 20px;
   }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6f61;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #e65c4f;
+  }
+  
